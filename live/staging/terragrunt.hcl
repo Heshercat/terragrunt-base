@@ -1,15 +1,16 @@
 #CONFIGURATION FOR SIMPLE NULL RESOURCE - STAGING
 
-#terraform {
-#  source = "../../modules/null_resource"
-#}
-#
-#inputs = {
-#  environment = "staging"
-#}
+terraform {
+  source = "../../modules/null_resource"
+}
+
+inputs = {
+  environment = "staging"
+}
 
 #CONFIGURATION FOR CREATION AWS S# BUCKET - STAGING
 
+/*
 terraform {
   source = "../../modules/s3_bucket"
 }
@@ -19,5 +20,5 @@ inputs = {
   versioning  = true
   encryption  = false
 }
-
+*/
 
